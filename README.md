@@ -15,6 +15,7 @@ EXTRA: O Script cria um arquivo de log com base no dia da copia, e reune a infor
 Crie o repositorio que ira armazenar os logs e conceda as permissões necessarias
 
 mkdir /var/log/backup
+
 chmod 777 -R /var/log/backup
 
 # Execução
